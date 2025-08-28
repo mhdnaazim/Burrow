@@ -244,7 +244,7 @@ export const sofas = [
         category: "Loveseats",
         image: lv3,
         name: "Range 2-Piece Sofa",
-        price: "855"
+        price: "856"
     },
 
     {
