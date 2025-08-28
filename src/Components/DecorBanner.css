@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Suisse Intl, Helvetica, Helvetica Neue, Arial, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, sans-serif;
+}
+
+.decor-banner-container {
+    height: 590px;
+    width: 100%;
+    background-image: url(../assets/rugBanner.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-left: 90px;
+    gap: 25px;
+}
+
+.decor-banner-container p {
+    color: #fff;
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.decor-banner-container h5 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    width: 30%;
+}
+
+
+.bed-sections {
+    height: 55px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 8px #a09a9a;
+}
+
+.bed-sections ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+.bed-sections li {
+    color: #262626;
+    text-decoration: none;
+    cursor: pointer;
+}

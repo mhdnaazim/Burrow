@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Suisse Intl, Helvetica, Helvetica Neue, Arial, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, sans-serif;
+}
+
+.shop-span-container {
+    height: min-content;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.shop-span-video {
+    height: 100vh;
+    width: 100%;
+}
+
+.shop-span-video video {
+    object-fit: cover;
+    position: relative;
+    min-height: 100%;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+}
+
+.shop-span-overlay {
+    color: #262626;
+    height: min-content;
+    width: 20%;
+    position: absolute;
+    top: 310%;
+    z-index: 1;
+    margin-left: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: left;
+    gap: 15px;
+}
+
+.shop-span-overlay h3 {
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.shop-span-overlay p {
+    font-size: 41px;
+    font-weight: 600;
+    line-height: 1.1;
+}
+
+.shop-span-overlay h5 {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.shop-span-overlay button {
+    background-color: #262626;
+    color: #fff;
+    height: 44px;
+    width: 140px;
+    font-size: 14px;
+    padding: 10px 15px;
+    margin-top: 15px;
+    border-radius: 3px;
+}
