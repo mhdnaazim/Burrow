@@ -12,8 +12,7 @@ export const StoreProvider = ({ children }) => {
   // Localstorage getitem
   const data = JSON.parse(localStorage.getItem("cart"))
 
-
-
+  
   const [cart, setCart] = useState(data)
 
   const addToCart = (item, id) => {
