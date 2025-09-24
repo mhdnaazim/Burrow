@@ -4,7 +4,6 @@ import Banner from "./Banner";
 import Smarter from "./Smarter";
 import ShopSpan from "./shopSpan";
 import Categories from "./Categories";
-import Swiper from "./Swiper";
 import Shipping from "./Shipping";
 import Footer from "./Footer";
 import { useStore } from "./Context/StoreContext";
@@ -19,7 +18,6 @@ const Home = () => {
             <Smarter />
             <ShopSpan />
             <Categories />
-            <Swiper />
             <Shipping />
             <Footer />
         </>
