@@ -18,7 +18,7 @@ import { ToastContainer } from "react-toastify";
 const App = () => {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/Burrow">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/seating" element={<Seating />} />
